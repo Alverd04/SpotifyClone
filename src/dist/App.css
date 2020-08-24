@@ -1,0 +1,95 @@
+.App {
+  height: calc(100vh - 90px);
+  background: #131313;
+  display: flex;
+}
+
+.navBar {
+  width: 228px;
+  height: calc(100% - 10px);
+  background: #040404;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.navBar .logo {
+  padding: 1.5rem 0.8rem;
+}
+.navBar .logo svg {
+  max-width: 130px;
+}
+.navBar .logo svg path {
+  fill: white;
+}
+.navBar ul {
+  margin: 0;
+  padding: 0;
+}
+.navBar ul li {
+  color: #b3b3b3;
+  list-style-type: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.navBar ul li.active {
+  background: #282828;
+}
+.navBar ul li:hover {
+  color: white;
+}
+.navBar .cookies {
+  font-size: 0.6rem;
+  color: #b3b3b3;
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem;
+}
+.navBar .cookies span:hover {
+  color: white;
+  cursor: pointer;
+}
+.navBar .cookies span {
+  display: block;
+}
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: #282828;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.upperNav {
+  background: #090909;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0.5rem 2 rem;
+}
+
+.main {
+  width: 100%;
+}
+.main .main-content {
+  color: white;
+  padding: 0.5rem 2rem;
+}
+.main .main-content h1 {
+  font-size: 1.8rem;
+}
